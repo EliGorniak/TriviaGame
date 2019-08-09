@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie Trivia Game | Eli Gorniak</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng|News+Cycle&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Assistant|Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/favicon1.png" type="image/x-icon">
+
+
+</head>
+
+<body onload="showWelcome()">
+    <div id="welcomeScreen">
+        <div class="splashBox">
+            <h1>Welcome to Movie Trivia Game!</h1>
+            <h2>Let's see how much do you know about movies, characters, directors and more!</h2>
+            <hr>
+            <p>You have only 60 seconds to guess 10 questions....</p>p>
+            <br>
+            <p>So, click to start:</p>
+            <br />
+            <button type="button" id="start-btn" class="btn btn-primary" onclick="startGame()">Let's go!</button>
+        </div>
+    </div>
+
+    <div id="showQuiz"></div>
+
+
+    <div id="resultQuiz">        
+        <p id="correctResponses">Correct Answers: </p>
+        <div id="numberCorrectResponses"></div>
+        <p id="wrongResponses">Wrong Answers: </p>
+        <div id="numberWrongResponses"></div>
+        <button id="btn-submit">Try again</button>
+    </div>
+
+    <div id="timeOut">
+        <div class="timeOutContainer">
+            <h2 class="out">Time Out!</h2>            
+            <p>Check your score:</p>
+            <p id="correctAnswers">Correct Answers: </p>
+            <div id="numberCorrectResponses"></div>
+            <p id="wrongAnswers">Wrong Answers: </p>
+            <button id="btn-submit">Hey, try again</button>
+        </div>
+    </div>
+
+    <div id="timer">
+        <h2>Remaining time:</h2>
+        <div id="time-remaining"></div>
+    </div>
+
+    <div id="submitButton">
+        <button type="button" class="btn btn-primary black-background white" id="sub-button" onclick = "checkResults()">Submit</button>
+    </div>
+
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+</body>
+
+</html>
+
+</html>

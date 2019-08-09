@@ -1,0 +1,109 @@
+html body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 80%;
+    background: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat fixed; 
+    font-family: 'News Cycle', sans-serif;     
+}
+
+.startScreen {
+    background-image: url(../images/background2.png) no repeat;
+    width: 40%;
+    margin-top: 0 auto;
+    font-family: 'Pacifico', cursive;
+    color: #white;
+
+}
+
+.container-all {
+    color: rgb(73, 73, 3);
+    text-align: center;    
+    width: 80%;
+    margin: 20px auto; 
+    
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Ma Shan Zheng', cursive;
+    color: rgb(248, 251, 65);
+    text-shadow: 10px 10px 10px rgb(194, 191, 191);
+    margin-top: 4%;    
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'News Cycle', sans-serif;
+    color: #ffffff;
+    margin: 50px;
+    font-weight: bold; 
+   
+}
+
+#start-btn {
+    margin: 0 50px;
+}
+
+
+
+h4 {
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(151, 5, 5);
+    margin: 20px;    
+}
+
+p {    
+    font-size: 20px;
+    font-family: 'News Cycle', sans-serif;
+    margin-top: 30px;
+    color: #bef3ae;
+    font-weight: bold;
+    margin: 0 50px;
+}
+
+#randomNumber {
+    font-size: 30px;    
+    letter-spacing: 1px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(85, 24, 2);
+    font-weight: bold;    
+}
+
+#totalScore {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(1, 39, 39);
+    font-family: 'Pacifico', cursive;
+}
+
+#totalWins {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(75, 1, 62);
+    font-family: 'Pacifico', cursive;
+}
+
+#totalLosses {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(250, 44, 8);
+    font-family: 'Pacifico', cursive;
+}
+
+footer {
+    background-color: #666666;
+    margin: 0 auto;
+    width: 100%;
+    height: 30px;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+
+}
